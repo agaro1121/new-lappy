@@ -8,6 +8,15 @@ brew cask install spectacle && \
 brew cask install sublime-text && \
 brew cask install firefox && \
 brew install git && \
+git config --global --bool bash.showDirtyState true && \
+git config --global --bool bash.showUntrackedFiles true && \
+git config --global user.name "Anthony Garo" && \
+git config --global user.email "agaro1121@gmail.com" && \
+git config --global credential.helper osxkeychain && \
+git config --global alias.s status && \
+git config --global alias.co checkout && \
+git config --global alias.br branch && \
+git config --global alias.unstage 'reset HEAD' && \
 brew cask install font-monofur-nerd-font && brew cask install font-monofur-nerd-font-mono && \
 brew cask install font-hasklig-nerd-font && brew cask install font-hasklig-nerd-font-mono && \
 brew cask install jetbrains-toolbox && \
@@ -45,4 +54,5 @@ brew install scala && \
 brew cask install private-internet-access && \
 brew cask install 1password && \
 brew cask install dashlane && \
-brew cask install cinch
+brew cask install cinch && \
+brew install golang
