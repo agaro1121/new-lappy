@@ -1,41 +1,32 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && \
-brew tap caskroom/cask && \
-brew cask install iterm2 && \
-brew cask install homebrew/cask-fonts/font-firacode-nerd-font && \
-brew cask install homebrew/cask-fonts/font-firacode-nerd-font-mono && \
-brew cask install google-chrome && \
-brew cask install spectacle && \
-brew cask install sublime-text && \
-brew cask install firefox && \
+brew install --cask iterm2 && \
+brew install --cask homebrew/cask-fonts/font-firacode-nerd-font && \
+brew install --cask homebrew/cask-fonts/font-firacode-nerd-font-mono && \
+brew install --cask google-chrome && \
+brew install --cask spectacle && \
+brew install --cask firefox && \
 brew install git && \
+brew install gh && \
 git config --global --bool bash.showDirtyState true && \
 git config --global --bool bash.showUntrackedFiles true && \
-git config --global user.name "Anthony Garo" && \
-git config --global user.email "agaro1121@gmail.com" && \
 git config --global credential.helper osxkeychain && \
 git config --global alias.s status && \
 git config --global alias.co checkout && \
 git config --global alias.br branch && \
 git config --global alias.unstage 'reset HEAD' && \
-brew cask install font-monofur-nerd-font && brew cask install font-monofur-nerd-font-mono && \
-brew cask install font-hasklig-nerd-font && brew cask install font-hasklig-nerd-font-mono && \
-brew cask install jetbrains-toolbox && \
-brew cask install alfred && \
-brew cask install simplenote && \
-brew install homebrew/cask-versions/java8 && \
-brew cask install dropbox && \
+brew install --cask font-monofur-nerd-font && brew cask install font-monofur-nerd-font-mono && \
+brew install --cask font-hasklig-nerd-font && brew cask install font-hasklig-nerd-font-mono && \
+brew install --cask alfred && \
+brew install --cask dropbox && \
 brew install sbt && \
-brew cask install slack && \
-brew cask install visual-studio-code && \
-brew cask install gitter && \
-brew cask install dash && \
-brew cask install sourcetree && \
-brew cask install boostnote && \
+brew install --cask slack && \
+brew install --cask visual-studio-code && \
+brew install --cask gitter && \
+brew install --cask dash && \
 brew install docker && \
-brew cask install vlc && \
+brew install vlc && \
 brew install watch && \
-brew install transmission && \
-brew cask install transmission && \
+brew install --cask transmission && \
 brew install diff-so-fancy &&  \
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX" && \
 git config --global color.ui true && \
@@ -49,10 +40,7 @@ git config --global color.diff.commit     "yellow bold" && \
 git config --global color.diff.old        "red bold" && \
 git config --global color.diff.new        "green bold" && \
 git config --global color.diff.whitespace "red reverse" && \
-brew install ammonite-repl && \
-brew install scala && \
-brew cask install private-internet-access && \
-brew cask install 1password && \
-brew cask install dashlane && \
-brew cask install cinch && \
-brew install golang
+brew install --cask private-internet-access && \
+brew install --cask cinch && \
+brew install golang && \
+brew install stow
